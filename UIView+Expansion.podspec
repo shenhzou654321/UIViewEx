@@ -10,19 +10,19 @@ Pod::Spec.new do |s|
 
 
 
-  s.name         = "UIViewEx"
+  s.name         = "UIView+Expansion"
   s.version      = "0.0.1"
-  s.summary      = "A short description of UIViewEx.podspec."
+  s.summary      = "ios 使用工具类"
 
 
 
-  s.description  = <<-DESC
-                   DESC
+  #s.description  = <<-DESC
+  #                 DESC
 
   s.homepage     = "https://github.com/shenhzou654321/UIViewEx"
 
-  s.license      = "MIT (example)"
-  s.author             = { "" => "jiang" }
+  s.license      = { :type => "BSD", :file => "LICENSE" }  
+  s.author             = { "me" => "jiang" }
 
   s.source       = { :git => "https://github.com/shenhzou654321/UIViewEx/UIViewEx.podspec.git", :tag => "#{s.version}" }
 
