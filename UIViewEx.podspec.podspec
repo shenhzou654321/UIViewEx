@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   #spec.public_header_files = "UIView+Expansion.h"        #需要对外导出的头文件  此处为本地验证
-  spec.requires_arc     = true                                       #ARC
-  spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }          #这个必须有，不要修改
+  s.requires_arc     = true                                       #ARC
+  s.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }          #这个必须有，不要修改
 
 end
